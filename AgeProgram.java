@@ -8,6 +8,11 @@ public class AgeProgram {
         int age = scanner.nextInt();
 
         System.out.println("Your age is " + age);
+        if (age < 18) {
+    System.out.println("You are under 18.");
+} else {
+    System.out.println("You are an adult.");
+}
 
         scanner.close();
     }
