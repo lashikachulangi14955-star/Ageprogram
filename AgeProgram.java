@@ -10,8 +10,11 @@ public class AgeProgram {
         System.out.println("Your age is " + age);
         if (age < 18) {
     System.out.println("You are under 18.");
-} else {
+} else if (age < 65) {
     System.out.println("You are an adult.");
+} else {
+    System.out.println("You are a senior.");
+}
 }
 
         scanner.close();
